@@ -8,15 +8,10 @@
 </head>
 <body>
 
-    <form id="formPost">
-        <input type="text" id="titulo" placeholder="Título do post" />
-        <input type="text" id="corpo" placeholder="body do post">
-        <button type="submit" id="botao">Enviar</button>
+    <form id="formCep">
+        <input type="text"  id="enviarCep" maxlength="9" onkeyup="this.value = mascaraCEP(this.value)">
+        <button type="submit" id="confirmar">Confirmar</button>
     </form>
-
-    <ul id="lista">
-
-    </ul>
     
 
     <script src="script.js"></script>

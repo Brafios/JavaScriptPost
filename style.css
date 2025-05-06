@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Viaoda Libre", serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#formPost{
+    display: flex;
+    flex-direction: column; /* coloca os itens em coluna */
+    align-items: center;     /* centraliza horizontalmente */
+    gap: 10px;               /* espaço entre os inputs e o botão */
+    margin-left: 30px;
+}
+
+#titulo{
+    width: 300px;
+}
+
+#corpo{
+    width: 300px;
+}
+
+#botao{
+    width: 175px;
+    border-radius: 7px;
+    background-color: rgb(55, 55, 146);
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 3px 8px black;
+
+}
+
+#botao:hover{
+    border-radius: 7px 2px;
+    background-color: rgb(78, 107, 235);
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 3px 8px black;
+}
+
+#lista{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    list-style: none;
+    width: 80%;
+    gap: 20px;
+    margin-left: 250px;
+}
+
+.caixa{
+    width: 33.33%;
+    background-color: rgb(55, 55, 146);
+    color: white;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 3px 8px black;
+}
+
+li{
+    margin-left: 25px;
+}
+
+.caixa:hover{
+    background-color: rgb(122, 107, 209);
+    color: black;
+    width: 400px;
+    box-shadow: 2px 3px 8px black;
+}
